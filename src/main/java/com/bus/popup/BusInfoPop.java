@@ -81,11 +81,11 @@ public class BusInfoPop {
                     // System.out.println(local);
                     if (local < 10) {
                         int remainder = 10 - local;
-                        String text = remainder + "站后到达";
+                        String text = remainder + "站后到达汤逊湖北路青龙嘴";
                         result.add(text);
                     }
                     if (local == 10) {
-                        String text = "即将到达";
+                        String text = "即将到达汤逊湖北路青龙嘴";
                         result.add(text);
                     }
                 }
